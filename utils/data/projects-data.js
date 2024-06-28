@@ -1,5 +1,6 @@
 import lgnrp from '/public/image/lgnrp.jpg';
 import financeapp from '/public/image/financeapp.png';
+import sms4usa from '/public/image/image_2024-06-28_195839356.png';
 
 export const projectsData = [
     {
@@ -20,8 +21,19 @@ export const projectsData = [
         tools: ['Express.js', 'EJS', 'Tailwind CSS', 'Socket.io', 'MongoDB', 'Chart.js'],
         tags: ['Finance', 'Web App', 'Tracker'],
         role: "'Creator'",
-        code: 'https://github.com/epithermal/personal-finance-tracker',  // Replace with actual GitHub URL
+        code: 'https://github.com/epithermal/personal-finance-tracker',
         demo: '',  // Replace with actual demo URL
-        image: financeapp,  // Replace with actual image URL
+        image: financeapp,
     },
+    {
+        id: 3,
+        name: 'SMS 4 USA',
+        description: "'SMS 4 USA is a web application designed to provide SMS services across various countries. As the Development Director, I oversee the entire development process, ensuring the seamless integration of multiple technologies and APIs. This project leverages a range of tools and technologies, including MySQL, smspool API, Sellix API, Bootstrap, NobleUI, SMTP, and more to deliver robust and scalable solutions.'",
+        tools: ['MySQL', 'smspool API', 'Sellix API', 'Bootstrap', 'NobleUI', 'SMTP'],
+        tags: ['SMS', 'Web App', 'Service'],
+        role: "'Development Director'",
+        code: '',  // Replace with actual GitHub URL if available
+        demo: 'https://sms4usa.com',
+        image: sms4usa,
+    }
 ];
